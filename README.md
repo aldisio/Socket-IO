@@ -20,22 +20,44 @@ This dependencies can be installed by the pip3, follow the command:
 
 Create a virtual environment:
 ```sh
-python3 -m venv .env
+$ python3 -m venv .env
 ```
 
 Active the virtual environment:
 ```sh
-. .env/bin/activate
+$ . .env/bin/activate
 ```
 Install requirements by pip:
 
 ```sh
-pip3 install -r requirements_socketio.txt
+$ pip3 install -r requirements_socketio.txt
+```
+
+The clinet NodeJS essentially depends the external libraries:
+- socket.io-client: ^2.3.0
+- buffer: 5.4.3
+
+This dependencies can be installed by the *npm*, follow the command:
+Install the socket.io-client:
+
+```sh
+$ npm install socket.io-client
+```
+Install other dependencies via package.json file:
+```sh
+$ npm install package.json
 ```
 
 ## Usage
+To execute server, open a new terminal and execute:
+```sh
+$ python3 serverPython3.py
+```
 
+To execute cliente, open a new terminal and execute:
+```sh
+$ node clientNodeJS.js
+```
 
 ## About Socket.IO:
-
 - http://github.com - automatic!- [GitHub](http://github.com)
