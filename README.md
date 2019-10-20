@@ -60,4 +60,5 @@ $ node clientNodeJS.js
 ```
 
 ## About Socket.IO:
-- http://github.com - automatic!- [GitHub](http://github.com)
+- Python: [python-socketio](https://github.com/miguelgrinberg/python-socketio)
+- NodeJS: [socket.io-client](https://www.npmjs.com/package/socket.io-client)
